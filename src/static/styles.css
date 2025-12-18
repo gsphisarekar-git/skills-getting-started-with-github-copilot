@@ -91,8 +91,8 @@ section h3 {
 }
 
 .participants ul {
-  list-style: disc;
-  margin: 6px 0 0 22px;
+  list-style: none;
+  margin: 6px 0 0 0;
   padding: 0;
 }
 
@@ -119,6 +119,23 @@ section h3 {
   font-weight: 700;
   flex: 0 0 28px;
   box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+
+/* Remove button next to participant */
+.participant-remove {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px 6px;
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.participant-remove:hover {
+  color: #8e0000;
 }
 
 /* Empty state */
